@@ -1,15 +1,15 @@
 import { Outlet } from "react-router-dom";
 import NavbarHairline from "@/components/navbars/NavbarHairline";
 import FooterQuietColumns from "@/components/sections/footer/FooterQuietColumns";
-import { Coffee } from "lucide-react";
+import { Utensils } from "lucide-react";
 
 export default function Layout() {
   return (
     <div className="relative isolate min-h-svh flex flex-col bg-background text-foreground" data-button="default" data-card="glass" data-pattern="none">
       <header data-webild-section="Header">
         <NavbarHairline
-          brand="Fairview Coffee Shop"
-          logoIcon={Coffee}
+          brand="Fairview Family Restaurant"
+          logoIcon={Utensils}
           navItems={[
             {
               name: "About",
@@ -39,8 +39,8 @@ export default function Layout() {
       </main>
       <footer data-webild-section="Footer" data-section="footer">
         <FooterQuietColumns
-          brand="Fairview Coffee Shop"
-          brandIcon={Coffee}
+          brand="Fairview Family Restaurant"
+          brandIcon={Utensils}
           description="Local family diner and bakery in Fairview, Michigan. Serving fresh homemade breakfast, lunch, and warm cinnamon rolls daily since 1989."
           columns={[
             {
@@ -103,7 +103,7 @@ export default function Layout() {
               ]
             }
           ]}
-          copyright="© 2026 Fairview Coffee Shop. Proudly serving our community since 1989."
+          copyright="© 2026 Fairview Family Restaurant. Proudly serving our community since 1989."
         />
       </footer>
     </div>

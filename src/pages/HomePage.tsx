@@ -7,17 +7,15 @@ import FaqCardGrid from "@/components/sections/faq/FaqCardGrid";
 import ContactFormGlassPhoto from "@/components/sections/contact/ContactFormGlassPhoto";
 import StrandField from "@/components/kit/StrandField";
 import LoaderStrandRing from "@/components/loaders/LoaderStrandRing";
-import { CakeSlice, Coffee, Cookie, Croissant, Egg, Heart, Sandwich, Utensils } from "lucide-react";
+import { CakeSlice, Cookie, Croissant, Egg, Heart, Sandwich, Utensils } from "lucide-react";
 
 export default function HomePage() {
   return (
     <>
-      <StrandField
-
-      />
+      <StrandField />
 
       <LoaderStrandRing
-        brand="Fairview Coffee Shop"
+        brand="Fairview Family Restaurant"
         introDelay={1.4}
       />
 
@@ -29,8 +27,8 @@ export default function HomePage() {
             text: "Serving Fairview families since 1989",
             href: "#about"
           }}
-          title="Homemade breakfast and fresh baking in Fairview"
-          description="Scratch-made cinnamon rolls, hot coffee, and classic diner plates served daily since 1989."
+          title="Homemade breakfast, lunch & family dining in Fairview"
+          description="Scratch-made family diner plates, legendary cinnamon rolls, and warm homestyle meals served daily since 1989."
           primaryButton={{
             text: "See menu",
             href: "#product"
@@ -41,24 +39,24 @@ export default function HomePage() {
           }}
           images={[
             {
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageAlt: "Fairview Family Restaurant fresh dining plate"
+            },
+            {
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageAlt: "Fairview Family Restaurant hearty meal spread"
+            },
+            {
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageAlt: "Fairview Family Restaurant fresh baked goods"
+            },
+            {
               imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg",
               imageAlt: "assorted breakfast meal"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/delicious-floral-feast-still-life_23-2149509046.jpg",
-              imageAlt: "baked cinnamon rolls with orange"
-            },
-            {
               imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-breakfast-table_23-2150247091.jpg",
               imageAlt: "breakfast in a skillet"
-            },
-            {
-              imageSrc: "https://img.b2bpic.net/free-photo/closeup-beautiful-mini-tart-with-berries-cup-coffee_1262-20033.jpg",
-              imageAlt: "mini tart with berries and coffee"
-            },
-            {
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-breakfast-with-eggs-vegetables_23-2148454746.jpg",
-              imageAlt: "breakfast with eggs and vegetables"
             },
             {
               imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-cinnamon-rolls-concept_23-2148779663.jpg",
@@ -84,19 +82,19 @@ export default function HomePage() {
           otherTitle="Chain Restaurants"
           otherItems={[
             "Pre-packaged frozen bakery goods and bread",
-            "Pre-made instant coffee and automated service",
+            "Automated fast-food style service",
             "Heat-and-serve microwave breakfast platters",
             "Rushed atmosphere with impersonal seating",
             "Standardized commercial ingredients and pre-made dough"
           ]}
-          brandName="Fairview Diner"
-          brandIcon={Coffee}
+          brandName="Fairview Family Restaurant"
+          brandIcon={Utensils}
           items={[
             "Cinnamon rolls baked fresh every morning",
-            "Bottomless pots of warm brewed coffee",
+            "Hot coffee & freshly brewed beverage refills",
             "Scratch-made breakfast skillets and fluffy pancakes",
             "Welcoming family tables and friendly local service",
-            "Time-tested family diner recipes since 1989"
+            "Time-tested family restaurant recipes since 1989"
           ]}
         />
       </div>
@@ -109,29 +107,29 @@ export default function HomePage() {
           items={[
             {
               title: "Farm-fresh breakfasts",
-              description: "Steak and eggs, signature scrambles, and classic pancakes cooked to order.",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-breakfast_23-2147991228.jpg",
-              imageAlt: "Top view delicious breakfast",
+              description: "Steak and eggs, signature scrambles, sausage gravy & biscuits, and classic pancakes cooked to order.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageAlt: "Farm-fresh breakfast dish at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
                 href: "#product"
               }
             },
             {
-              title: "Hearty lunches and pizzas",
-              description: "Savory pies, burgers, and classic diner sandwiches baked in-house on golden crusts.",
-              imageSrc: "https://img.b2bpic.net/free-photo/traditional-cinnamon-rolls-dough-preparation-homemade-sweet-rolls_127032-3166.jpg",
-              imageAlt: "breakfast spread on checkered tablecloth",
+              title: "Hearty lunches & diner classics",
+              description: "Savory diner specials, burgers, hot sandwiches, and comfort meals prepared fresh daily.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageAlt: "Delicious lunch meal at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
                 href: "#product"
               }
             },
             {
-              title: "Famous bakery treats",
-              description: "Warm cinnamon rolls and sweet apple fritters prepared fresh every morning.",
-              imageSrc: "https://img.b2bpic.net/free-photo/cinnamon-rolls-buns-wooden-table-with-copy-space-kanelbulle-swedish-dessert_123827-22507.jpg",
-              imageAlt: "Cinnamon rolls buns on wooden table with copy space Kanelbulle Swedish dessert",
+              title: "Famous family bakery",
+              description: "Warm cinnamon rolls, fresh donuts, homemade pies, and sweet treats prepared fresh every morning.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageAlt: "Fresh baked goods at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
                 href: "#product"
@@ -151,36 +149,36 @@ export default function HomePage() {
               icon: Egg,
               title: "Breakfast Classics",
               description: "Signature two-egg plates with meats and potatoes from $9.50",
-              imageSrc: "https://img.b2bpic.net/free-photo/full-english-breakfast-with-fried-egg-bacon-sausages-beans_123827-37127.jpg",
-              imageAlt: "Full English breakfast with fried egg bacon sausages and beans"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageAlt: "Fresh breakfast plate"
             },
             {
               icon: CakeSlice,
-              title: "Homemade Pies",
-              description: "Seasonal fruit filling by the slice from $4.50",
-              imageSrc: "https://img.b2bpic.net/free-photo/slice-apple-strudel-plate_2829-11326.jpg",
-              imageAlt: "Slice of an apple strudel on the plate"
+              title: "Fresh Bakery & Pies",
+              description: "Scratch-made cinnamon rolls, pastries, and fruit pies from $4.50",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageAlt: "Fresh baked treats"
             },
             {
               icon: Sandwich,
-              title: "Gourmet Sandwiches",
-              description: "Hearty lunch staples served with classic sides from $8.95",
-              imageSrc: "https://img.b2bpic.net/free-photo/front-view-tasty-toast-sandwich-with-cheese-ham-along-with-red-tomatoes-bread-loafs-wooden-desk_140725-20945.jpg",
-              imageAlt: "Front view tasty toast sandwich with cheese ham along with red tomatoes bread loafs on wooden desk"
+              title: "Hearty Lunches",
+              description: "Classic diner sandwiches and specials served with hot sides from $8.95",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageAlt: "Hearty diner lunch meal"
             },
             {
               icon: Cookie,
-              title: "Assorted Donuts",
+              title: "Assorted Donuts & Rolls",
               description: "Daily batch selection baked fresh each morning from $1.75",
               imageSrc: "https://img.b2bpic.net/free-photo/chocolate-doughnuts-buns-wooden-board_114579-17577.jpg",
-              imageAlt: "Chocolate doughnuts and buns on a wooden board. "
+              imageAlt: "Assorted donuts and bakery buns"
             },
             {
-              icon: Coffee,
-              title: "Iced Coffee",
-              description: "Refreshing cold house brews poured fresh from $3.25",
-              imageSrc: "https://img.b2bpic.net/free-photo/aromatic-frappuccino-table_23-2148900676.jpg",
-              imageAlt: "Aromatic frappuccino on table"
+              icon: Utensils,
+              title: "Family Dinner Specials",
+              description: "Comfort food platters and homestyle entrees from $11.50",
+              imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg",
+              imageAlt: "Family dinner special plate"
             }
           ]}
         />
@@ -208,17 +206,17 @@ export default function HomePage() {
               name: "Grace Shaw",
               role: "Regular guest",
               company: "Morning Guest",
-              icon: Coffee
+              icon: Utensils
             },
             {
-              quote: "Warm people and great coffee. It feels like coming home when you step inside.",
+              quote: "Warm people and great food. It feels like coming home when you step inside.",
               name: "Jordan Murphy",
               role: "Fairview local",
-              company: "Coffee Lover",
+              company: "Regular Guest",
               icon: Heart
             },
             {
-              quote: "Terrific lunch specials. The pizza is surprisingly good for a classic coffee shop.",
+              quote: "Terrific lunch specials. The food and service are unbeatable for a classic family restaurant.",
               name: "Holly Hughes",
               role: "Frequent diner",
               company: "Daily Customer",
@@ -287,7 +285,7 @@ export default function HomePage() {
           placeholders={{
             firstName: "Callum",
             lastName: "Coleman",
-            email: "info@fairviewcoffeeshop.com",
+            email: "info@fairviewfamilyrestaurant.com",
             company: "Family of 4",
             message: "Ask about daily baked goods or group visits."
           }}
@@ -296,8 +294,8 @@ export default function HomePage() {
           }}
           note="Call 989-848-2959 for direct phone orders during regular business hours."
           successText="Thank you. We will get back to you shortly."
-          imageSrc="https://img.b2bpic.net/free-photo/cup-tea-with-bread-donuts-table_23-2147860558.jpg"
-          imageAlt="Cup of tea with bread and donuts on table"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg"
+          imageAlt="Fairview Family Restaurant meal spread"
         />
       </div>
     </>
