@@ -39,19 +39,19 @@ export default function HomePage() {
           }}
           images={[
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg?_wi=1",
               imageAlt: "Fairview Family Restaurant fresh dining plate"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg?_wi=1",
               imageAlt: "Fairview Family Restaurant hearty meal spread"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg?_wi=1",
               imageAlt: "Fairview Family Restaurant fresh baked goods"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg?_wi=1",
               imageAlt: "assorted breakfast meal"
             },
             {
@@ -108,7 +108,7 @@ export default function HomePage() {
             {
               title: "Farm-fresh breakfasts",
               description: "Steak and eggs, signature scrambles, sausage gravy & biscuits, and classic pancakes cooked to order.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg?_wi=2",
               imageAlt: "Farm-fresh breakfast dish at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
@@ -118,7 +118,7 @@ export default function HomePage() {
             {
               title: "Hearty lunches & diner classics",
               description: "Savory diner specials, burgers, hot sandwiches, and comfort meals prepared fresh daily.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg?_wi=2",
               imageAlt: "Delicious lunch meal at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
@@ -128,7 +128,7 @@ export default function HomePage() {
             {
               title: "Famous family bakery",
               description: "Warm cinnamon rolls, fresh donuts, homemade pies, and sweet treats prepared fresh every morning.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg?_wi=2",
               imageAlt: "Fresh baked goods at Fairview Family Restaurant",
               button: {
                 text: "See full menu",
@@ -149,21 +149,21 @@ export default function HomePage() {
               icon: Egg,
               title: "Breakfast Classics",
               description: "Signature two-egg plates with meats and potatoes from $9.50",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433427-pkzz0tp6.jpg?_wi=3",
               imageAlt: "Fresh breakfast plate"
             },
             {
               icon: CakeSlice,
               title: "Fresh Bakery & Pies",
               description: "Scratch-made cinnamon rolls, pastries, and fruit pies from $4.50",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433430-akosfoad.jpg?_wi=3",
               imageAlt: "Fresh baked treats"
             },
             {
               icon: Sandwich,
               title: "Hearty Lunches",
               description: "Classic diner sandwiches and specials served with hot sides from $8.95",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg?_wi=3",
               imageAlt: "Hearty diner lunch meal"
             },
             {
@@ -177,7 +177,7 @@ export default function HomePage() {
               icon: Utensils,
               title: "Family Dinner Specials",
               description: "Comfort food platters and homestyle entrees from $11.50",
-              imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/wholesome-assorted-breakfast-meal_23-2147693613.jpg?_wi=2",
               imageAlt: "Family dinner special plate"
             }
           ]}
@@ -294,7 +294,7 @@ export default function HomePage() {
           }}
           note="Call 989-848-2959 for direct phone orders during regular business hours."
           successText="Thank you. We will get back to you shortly."
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MP2bZRlt3mMwTKqKcYQId6yf3h/uploaded-1795627433429-4wlt0w5i.jpg?_wi=4"
           imageAlt="Fairview Family Restaurant meal spread"
         />
       </div>
